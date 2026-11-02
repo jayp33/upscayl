@@ -164,6 +164,9 @@ You can track all the progress here: https://github.com/orgs/upscayl/projects/1
 I recommend using Volta: https://volta.sh for installing Node.js.
 Download and install volta, then do: `volta install node`.
 
+> [!IMPORTANT]
+> Use Node.js 18, 20, or 22. Node.js 24.16+ and 26+ break Electron's archive extraction during `npm install`, which causes `Electron failed to install correctly`. See [Electron installation troubleshooting](docs/development/electron-install-node-version.md) for details.
+
 ## 🏃 Running
 > [!NOTE]
 > If you are not willing to install [git](https://git-scm.com/downloads), you can skip the first line, download [the source zip](https://github.com/upscayl/upscayl/archive/refs/heads/main.zip) and extract it to `upscayl` instead and carry on with the rest of the instructions.
